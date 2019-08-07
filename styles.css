@@ -1,8 +1,4 @@
-@import url("large.css") screen;
 @import url("bootstrap-grid.min.css") screen;
-@import url("common.css") screen;
-@import url("medium.css") screen;
-@import url("small.css") screen;
 @media (min-width: 768px) {
     /*header*/
     .head-sub-h {
