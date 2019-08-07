@@ -1,0 +1,56 @@
+@media (min-width: 320px) and (max-width: 767px){
+    .wrapper {
+        width: 100%;
+    }
+    .main-navigation {
+        height: 80px;
+    }
+    .big-head{
+        background: url(img/girl-gamepad.png) 50% 100% no-repeat,
+                    url(img/Ellipse.png) bottom right no-repeat,
+                    url(img/Ellipse-pink.png) top left no-repeat,
+                    linear-gradient(243.81deg, #301F68 0%, #561862 100%) bottom left no-repeat,
+                    #4C1A64;
+        background-size: 50%;
+    }
+     .head-promo{
+        padding: 20px 16px 460px;
+    }
+    .row-head-first{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .head-main-button{
+        margin-top: 25px;
+    }
+    .navig-link{
+        display: none;
+    }
+    .small-menu{
+        border: solid 1px #fff;
+    }
+    .main-navigation ul{
+        display: flex;
+        align-items: center;
+        height: 100%;
+        justify-content: space-around;
+    }
+    .head-sub-h{
+        position: relative;
+        left: -40px;
+        margin-top: 25px;
+    }
+    .small-promo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .head-main-text{
+        text-align: center;
+    }
+    .head-main-button{
+        display: none !important;
+    }
+}

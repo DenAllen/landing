@@ -1,0 +1,112 @@
+@import url("large.css") screen;
+@import url("bootstrap-grid.min.css") screen;
+@import url("common.css") screen;
+@import url("medium.css") screen;
+@import url("small.css") screen;
+@media (min-width: 768px) {
+    /*header*/
+    .head-sub-h {
+        margin-right: 10px;
+        margin-left: 15px;
+
+    }
+
+    .head-main-h {
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .small-menu{
+        display: none;
+    }
+}
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #170F39;
+}
+
+.wrapper {
+    margin: 0 auto;
+    border: 1px solid #000;
+    height: 100%;
+}
+
+header {
+    background-color: #4C1A64;
+}
+.main-navigation{
+    width: 100%;
+}
+.main-navigation ul {
+    list-style: none;
+}
+
+.head-logo {
+    color: #DBD1E0;
+}
+
+.navig-link {
+    color: #9276A2;
+}
+
+.navig-link-active {
+    color: #FFFFFF;
+}
+.head-promo{
+    width: 100%;
+}
+.head-age {
+    color: #57D6E1;
+    padding: 4px 8px;
+    border: solid 1px #57D6E1;
+    display: inline;
+}
+
+.head-sub-h {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 28px;
+    color: #fff;
+    position: relative;
+}
+
+.head-main-h {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+.head-main-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #DCD1E0;
+}
+.head-main-button{
+    display: flex;
+    line-height: 24px;
+    height: 48px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    background: #57D6E1;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+.head-sub-h:after{
+    content: url(img/logo-mail.svg);
+    position: absolute;
+    top: -10px;
+    margin-left: 8px;
+}
