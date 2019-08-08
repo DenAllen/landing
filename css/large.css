@@ -1,0 +1,50 @@
+.wrapper {
+    width: 1366px;
+    box-shadow: 0 0 70px #000;
+    margin: 0 auto;
+}
+/*navig*/
+.small-nav{
+    display: none;
+}
+.navigation ul{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    width: 50%;
+    justify-content: space-around;
+}
+/*promo*/
+.promo{
+    padding: 200px 96px 160px;
+    position: relative;
+    z-index: 0;
+}
+.promo-main-text{
+    width: 50%;
+}
+.row-head-first{
+    display: flex;
+}
+.head-age{
+    margin-right: 30px;
+}
+.promo-main-h{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.head-main-button{
+    margin-top: 48px;
+}
+.girl-block{
+    display: block;
+    position: absolute;
+    top: -70px;
+    right: 10px;
+    overflow: hidden;
+}
+.promo-gitl{
+    width: 571px;
+    z-index: 1;
+    background: url(../img/Ellipse.png) bottom no-repeat;
+}

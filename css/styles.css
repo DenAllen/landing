@@ -1,0 +1,102 @@
+body{
+    background-color: #170F39;
+    font-family: 'Roboto', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+/*navig*/
+.navigation{
+    height: 80px;
+    background-color: #4E1A64;
+    background: linear-gradient(243.81deg, #301F68 0%, #561862 100%);
+}
+.navigation ul{
+    list-style: none;
+    position: relative;
+    z-index: 100;
+}
+.head-logo {
+    color: #DBD1E0;
+    font-size: 1.2em;
+}
+.nav-link {
+    color: #9276A2;
+    font-size: 1em;
+}
+
+.nav-link-active {
+    color: #FFFFFF;
+}
+.head-logo:hover, .nav-link:hover{
+    color: #FFFFFF;
+}
+/*promo*/
+.promo{
+    background-color: #4E1A64;
+    background: linear-gradient(243.81deg, #301F68 0%, #561862 100%);
+}
+.head-age {
+    color: #57D6E1;
+    padding: 4px 8px;
+    border: solid 1px #57D6E1;
+    display: inline;
+}
+
+.sub-h {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2em;
+    line-height: 28px;
+    color: #fff;
+    position: relative;
+}
+
+.main-h {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.85em;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+.main-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 24px;
+    color: #DCD1E0;
+}
+.head-main-button{
+    display: flex;
+    line-height: 24px;
+    height: 48px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    background: #57D6E1;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1em;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+.head-main-button:hover{
+    box-shadow: 0 10px 10px rgba(0,0,0,.5)
+}
+.promo-sub-h:after{
+    content: url(../img/logo-mail.svg);
+    position: absolute;
+    top: -10px;
+    margin-left: 8px;
+}
+.try2{
+    height: 100px;
+    width: 100%;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+    z-index: 33;
+}

@@ -1,0 +1,52 @@
+/*navig*/
+.small-nav{
+    display: none;
+}
+.navigation ul{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    width: 90%;
+    justify-content: space-around;
+}
+/*promo*/
+.promo{
+    display: grid;
+    grid-template-columns: 64px repeat(8, 1fr) 64px;
+    grid-template-rows: 84px 70px 1fr 0.2fr 1fr 1fr 84px;
+    position: relative;
+    background: url(../img/Ellipse-pink.png) top left no-repeat,
+        linear-gradient(243.81deg, #301F68 0%, #561862 100%);
+}
+.row-head-first{
+    grid-column: 2 / 6;
+    grid-row: 2;
+}
+.promo-main-h{
+    grid-column: 2 / 6;
+    grid-row: 3;
+}
+.promo-sub-h{
+    display: inline;
+    margin-left: 20px;
+}
+.promo-main-text{
+    grid-column: 2 / 6;
+    grid-row: 5;
+}
+.head-main-button{
+    grid-column: 2 / 6;
+    grid-row: 6;
+}
+.girl-block{
+    display: block;
+    position: absolute;
+     bottom: 0;
+    right: 10px;
+    overflow: hidden;  
+}
+.promo-gitl{
+    z-index: 1;
+    width: 368px;
+    background: url(../img/Ellipse.png) 20px 285px no-repeat;
+}

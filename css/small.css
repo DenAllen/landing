@@ -1,0 +1,56 @@
+/*navig*/
+.nav-link{
+    display: none;
+}
+.navigation ul{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+.fa-bars{
+    color: #8578A3;
+}
+.fa-bars:hover{
+    color: #fff;
+}
+/*promo*/
+.promo{
+    text-align: center;
+    width: 100%;
+    background: url(../img/Ellipse-pink.png) top left no-repeat,
+        linear-gradient(243.81deg, #301F68 0%, #561862 100%);
+    background-size: 50%;
+    
+}
+.head-main-button{
+    margin: 0 auto;
+}
+.row-head-first{
+    padding-top: 40px;
+}
+.promo-main-text{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.promo-gitl{
+    width: 288px;
+    z-index: 1;
+}
+.girl-block{
+    background: url(../img/Ellipse.png) 50% bottom no-repeat;
+    background-size: 320px;
+    margin-top: 30px;
+}
+.head-main-button{
+    display: none;
+}
+.promo-main-h{
+    margin-bottom: 16px;
+    margin-top: 20px;
+}
+.promo-sub-h{
+    margin-left: -40px;
+    margin-top: 30px;
+}
