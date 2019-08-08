@@ -1,76 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" type="text/css" media="screen and (min-width: 1366px)" href="large.css">
-    <link rel="stylesheet" type="text/css" media="screen and (min-width: 1024px) and (max-width: 1365px)" href="common.css">
-    <link rel="stylesheet" type="text/css" media="screen and (min-width: 768px) and (max-width: 1023px)" href="medium.css">
-    <link rel="stylesheet" type="text/css" media="screen and (min-width: 320px) and (max-width: 767px)" href="small.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 1366px)" href="css/large.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 1024px) and (max-width: 1365px)" href="css/common.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 768px) and (max-width: 1023px)" href="css/medium.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 320px) and (max-width: 767px)" href="css/small.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/36a565db3c.js"></script> 
+    <script src="https://kit.fontawesome.com/36a565db3c.js"></script>
 </head>
+
 <body>
     <div class="wrapper">
-        <header class="big-head">
-            <nav class="main-navigation row">
-                <ul class="col-lg-8 col-md-12">
-                   <li><a href="#" class="head-logo">GeekBrains</a></li>
-                    <li ><a href="#" class="navig-link navig-link-active">Описание</a></li>
-                    <li><a href="#" class="navig-link">Игры на Unity</a></li>
-                    <li><a href="#" class="navig-link">Навыки</a></li>
-                    <li><a href="#" class="navig-link">Сертификат</a></li>
-                    <li><a href="#" class="navig-link">Программа</a></li>
-                    <li><a href="#" class="small-menu"><i class="fas fa-bars"></i></a></li>
-                </ul>
-            </nav>
-            <div class="head-promo row">
-              <div class="col-lg-6 col-md-8 small-promo">
-               <div class="row-head-first">
+        <nav class="navigation">
+            <ul>
+                <li><a href="#" class="head-logo">GeekBrains</a></li>
+                <li><a href="#" class="nav-link nav-link-active">Описание</a></li>
+                <li><a href="#" class="nav-link">Игры на Unity</a></li>
+                <li><a href="#" class="nav-link">Навыки</a></li>
+                <li><a href="#" class="nav-link">Сертификат</a></li>
+                <li><a href="#" class="nav-link">Программа</a></li>
+                <li class="small-nav"><i class="fas fa-bars"></i></li>
+            </ul>
+        </nav>
+        <div class="promo">
+            <div class="row-head-first">
                 <p class="head-age">Для 13 - 17 лет</p>
-                <p class="head-sub-h head-sub-h-mrgin">Онлайн курс от</p>   
-                
-                </div>
-                <h1 class="head-main-h head-main-h-margin">Разработка игр на Unity</h1>
-                <p class="head-main-text">Под руководством опытного программиста вы создадите 3D-игру: разработаете сюжет, дизайн, механику и реализуете всё это на игровом движке Unity. </p>
-                <a href="#" class="head-main-button">Записаться</a>
+                <p class="sub-h promo-sub-h">Онлайн курс от</p>
             </div>
-            </div>
-        </header>
-        <div class="second-block">
-            <h1 class="head-main-h head-main-h-center">На Unity создают шедевры</h1>
-            <div class="row">
-                <figure class="col-xl-8 col-lg-7 col-md-12 games-ex-pos">
-                    <img class="game-img-big" src="img/game-img.jpg" alt="game-img">
-                    <img class="game-img-small" src="img/game-img-small.jpg" alt="game-img">
-                    <figcaption class="games-ex games-ex-big">
-                        <h4 class="head-sub-h">Hearthstone</h4>
-                        <p class="head-main-text">Самая популярная коллекционная карточная игра в мире.</p>
-                    </figcaption>
-                </figure>
-                
-                <div class="col-xl-4 col-lg-5 col-md-12 second-block-content">
-                <figure class="games-ex-pos">
-                    <img src="img/game-two.jpg" alt="game-two" class="game-two-small">
-                    <img src="img/game-two-big.jpg" alt="" class="game-two-big">
-                    <figcaption class="games-ex games-ex-small">
-                        <h4 class="head-sub-h">Ori and the Blind Forest</h4>
-                        <p class="head-main-text">Наикрасивейший аркадный платформер.</p>
-                    </figcaption>
-                </figure>
-                <figure class="games-ex-pos">
-                    <img src="img/game-three.jpg" alt="game-two" class="game-two-small">
-                    <img src="img/game-three-big.jpg" alt="" class="game-two-big">
-                    <figcaption class="games-ex games-ex-small">
-                        <h4 class="head-sub-h">Monument Valley 2</h4>
-                        <p class="head-main-text">Увлекательная изометрическая головоломка.</p>
-                    </figcaption>
-                </figure>
-                </div>
-            </div>
+            <h1 class="main-h promo-main-h">Разработка игр на Unity</h1>
+            <p class="main-text promo-main-text">Под руководством опытного программиста вы создадите 3D-игру: разработаете сюжет, дизайн, механику и реализуете всё это на игровом движке Unity. </p>
+            <a href="#" class="head-main-button">Записаться</a>
+            <div class="girl-block"> <img src="img/girl-gamepad.png" alt="girl-gamepad" class="promo-gitl"></div>
         </div>
+        <div class="try2"></div>
     </div>
 </body>
+
 </html>
