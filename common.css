@@ -1,32 +1,68 @@
-@media (min-width: 1024px) and (max-width: 1365px){
-    /*header*/
-    .main-navigation ul {
-        display: flex;
-        align-items: center;
-        height: 100%;
-        justify-content: space-around;
-    }
-    .wrapper {
-        width: 100%;
-    }
-    .main-navigation {
-        height: 80px;
-    }
-    .big-head{
-        background: url(img/girl-gamepad.png) 100% top no-repeat,
-                    url(img/Ellipse.png) 120% 250% no-repeat,
-                    url(img/Ellipse-pink.png) left top no-repeat,
-                    linear-gradient(243.81deg, #301F68 0%, #561862 100%),
-                    #4C1A64;
-    }
-     .head-promo{
-        padding: 120px 64px;
-    }
-    .row-head-first{
-        display: flex;
-        align-items: center;
-    }
-    .head-main-button{
-        margin-top: 35px;
-    }
+/*header*/
+.main-navigation ul {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.main-navigation {
+    height: 80px;
+}
+
+.big-head {
+    background: url(img/girl-gamepad.png) 100% top no-repeat,
+        url(img/Ellipse.png) 120% 250% no-repeat,
+        url(img/Ellipse-pink.png) left top no-repeat,
+        linear-gradient(243.81deg, #301F68 0%, #561862 100%),
+        #4C1A64;
+}
+
+.head-promo {
+    padding: 120px 64px;
+}
+
+.row-head-first {
+    display: flex;
+    align-items: center;
+}
+
+.head-main-button {
+    margin-top: 35px;
+}
+/*на юните создают шедевры*/
+.game-img-big{
+    display: none;
+}
+.second-block {
+    padding: 160px 64px;
+}
+.second-block .col-xl-8{
+    display: flex;
+    justify-content: center;
+}
+.games-ex-big {
+    width: 509px;
+}
+.games-ex-small{
+    width: 355px;
+}
+.second-block-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.second-block-content img{
+    width: 355px;
+    height: 184px;
+}
+.head-main-h-center{
+    margin-bottom: 48px;
+}
+.game-two-big{
+    display: none;
 }

@@ -1,18 +1,22 @@
 @import url("bootstrap-grid.min.css") screen;
 @media (min-width: 768px) {
     /*header*/
-    .head-sub-h {
+    .head-sub-h-margin {
         margin-right: 10px;
-        margin-left: 15px;
 
     }
-
-    .head-main-h {
+    .head-age{
+        margin-right: 15px;
+    }
+    .head-main-h-margin {
         margin-bottom: 15px;
         margin-top: 15px;
     }
     .small-menu{
         display: none;
+    }
+    .games-ex{
+        padding: 24px 0 24px 24px;
     }
 }
 * {
@@ -28,10 +32,9 @@ body {
 
 .wrapper {
     margin: 0 auto;
-    border: 1px solid #000;
     height: 100%;
 }
-
+/*header*/
 header {
     background-color: #4C1A64;
 }
@@ -44,10 +47,12 @@ header {
 
 .head-logo {
     color: #DBD1E0;
+    font-size: 1.2em;
 }
 
 .navig-link {
     color: #9276A2;
+    font-size: 1em;
 }
 
 .navig-link-active {
@@ -66,7 +71,7 @@ header {
 .head-sub-h {
     font-style: normal;
     font-weight: 500;
-    font-size: 17px;
+    font-size: 1.2em;
     line-height: 28px;
     color: #fff;
     position: relative;
@@ -75,14 +80,14 @@ header {
 .head-main-h {
     font-style: normal;
     font-weight: 300;
-    font-size: 40px;
+    font-size: 2.85em;
     line-height: 48px;
     color: #FFFFFF;
 }
 .head-main-text{
     font-style: normal;
     font-weight: normal;
-    font-size: 15px;
+    font-size: 1em;
     line-height: 24px;
     color: #DCD1E0;
 }
@@ -97,12 +102,29 @@ header {
     border-radius: 4px;
     font-style: normal;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 1em;
     color: #FFFFFF;
 }
-.head-sub-h:after{
+.head-sub-h-mrgin:after{
     content: url(img/logo-mail.svg);
     position: absolute;
     top: -10px;
     margin-left: 8px;
+}
+/*на юните создают шедевры*/
+.second-block{
+    background-color: #321F5F;
+}
+.head-main-h-center{
+    text-align: center;
+}
+.games-ex-pos{
+    position: relative;
+}
+
+.games-ex{
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 49.17%, rgba(0, 0, 0, 0.8) 100%);
+    width: 100%;
 }
