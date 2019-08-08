@@ -78,13 +78,21 @@
     margin-bottom: 30px;
 }
 .game-two-small, .game-img-small, .games-ex-pos, .second-block-content{
-    width: 288px;
+    width: 300px;
 }
 .second-block .row .col-md-12{
     margin: 0 auto;
 }
+.second-block .row{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
 .games-ex-pos {
     margin-top: 15px;
+}
+.second-block  .head-main-text, .head-sub-h {
+    text-align: left !important;
 }
 .second-block {
     padding: 64px 16px;

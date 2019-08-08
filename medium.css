@@ -49,16 +49,19 @@
 }
 
 .games-ex-pos {
-    margin-top: 30px;
-}
-
-.second-block row {
-    margin: 0 auto;
     width: 755px;
+}
+.second-block figure{
+    margin: 0 auto;
+}
+.second-block .row{
+    margin: 0 auto;
+    width: 100%;
 }
 
 .games-ex-pos img {
-    width: 100%;
+    width: 755px;
+    margin-top: 30px;
 }
 
 .game-two-small {
