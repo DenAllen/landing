@@ -1,52 +1,215 @@
-/*navig*/
-.small-nav{
-    display: none;
-}
-.navigation ul{
-    display: flex;
-    height: 100%;
-    align-items: center;
-    width: 50%;
-    justify-content: space-around;
-}
-/*promo*/
-.promo{
-    display: grid;
-    grid-template-columns: 64px repeat(12, 1fr) 64px;
-    grid-template-rows: 120px 70px 1fr 0.2fr 1fr 1fr 120px;
+/*navig */
+.navigation ul {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  width: 50%;
+  justify-content: space-around; }
+
+.wrapper {
+  overflow: hidden; }
+
+/*promo */
+.promo {
+  display: grid;
+  grid-template-columns: 64px repeat(12, 1fr) 64px;
+  grid-template-rows: 120px 70px 1fr 0.2fr 1fr 1fr 120px;
+  position: relative;
+  background: url(../img/Ellipse-pink.png) top left no-repeat, linear-gradient(243.81deg, #301F68 0%, #561862 100%); }
+
+.row-head-first {
+  grid-column: 2/7;
+  grid-row: 2; }
+
+.promo-main-h {
+  grid-column: 2/7;
+  grid-row: 3; }
+
+.promo-sub-h {
+  display: inline;
+  margin-left: 20px; }
+
+.promo-main-text {
+  grid-column: 2/7;
+  grid-row: 5; }
+
+.head-main-button {
+  grid-column: 2/7;
+  grid-row: 6; }
+
+.girl-block {
+  display: block;
+  position: absolute;
+    position-top: -70px;
+  right: 10px;
+  overflow: hidden; }
+
+.promo-gitl {
+  z-index: 1;
+  width: 431px;
+  background: url(../img/Ellipse.png) 20px 285px no-repeat; }
+
+/*games */
+.games {
+  display: grid;
+  grid-template-columns: 6.25% repeat(12, 1fr) 6.25%;
+  grid-template-rows: 160px 0.5fr 1fr 1fr 160px;
+  grid-gap: 30px; }
+
+.games img {
+  width: 100%; }
+
+.first-game-big {
+  display: none; }
+
+.second-game-big {
+  display: none; }
+
+.games-main-h {
+  grid-area: 2/4/2/13; }
+
+.games-first-game {
+  grid-area: 3/2/5/9;
+  position: relative; }
+
+.games-second-game {
+  grid-area: 3/9/3/14;
+  position: relative; }
+
+.games-third-game {
+  grid-area: 4/9/4/14;
+  position: relative; }
+
+.games-text {
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 49.17%, rgba(0, 0, 0, 0.8) 100%);
+  padding-left: 24px;
+  padding-bottom: 24px;
+  width: 100%; }
+
+/*profession */
+.profession {
+  display: grid;
+  grid-template-columns: 6.25% 1fr 1fr 6.25%;
+  grid-column-gap: 30px;
+  grid-row-gap: 4em;
+  padding-top: 160px;
+  padding-bottom: 160px; }
+
+.schedule {
+  grid-column: 2;
+  width: 370px;
+  height: 304px;
+  padding: 48px;
+  margin: 0 auto;
+  text-align: center; }
+
+.schedule img {
+  width: 274px;
+  height: 136px;
+  margin-bottom: 24px; }
+
+.profession-main-h {
+  grid-column: 1/5; }
+
+.text-description {
+  padding: 24px; }
+
+.education {
+  display: grid;
+  grid-template-columns: 6.25% repeat(2, 1fr) 6.25%;
+  grid-row-gap: 3em;
+  padding-top: 160px;
+  padding-bottom: 160px; }
+  .education-main-h {
+    grid-column: 2/4; }
+  .education-picture-left {
+    grid-column: 2;
+    justify-self: center;
+    align-self: center; }
+  .education-picture-right {
+    grid-column: 3;
+    justify-self: center;
+    align-self: center; }
+  .education-description-right {
+    grid-column: 3;
+    align-self: center; }
+  .education-description-left {
+    grid-column: 2;
+    align-self: center; }
+  .education-description-active {
+    border-bottom: 3px solid #57D6E1;
+    padding-bottom: 5px; }
+  .education .large-dark-text {
+    margin-bottom: 0.5em; }
+
+.small-line {
+  display: none; }
+
+.program {
+  padding-top: 160px;
+  padding-bottom: 160px;
+  display: grid;
+  grid-template-columns: 19.5317% 1fr 19.5317%; }
+  .program-main-h {
+    text-align: center;
+    grid-column: 2; }
+  .program-teachers {
+    grid-column: 2;
     position: relative;
-    background: url(../img/Ellipse-pink.png) top left no-repeat,
-        linear-gradient(243.81deg, #301F68 0%, #561862 100%);
-}
-.row-head-first{
-    grid-column: 2 / 7;
-    grid-row: 2;
-}
-.promo-main-h{
-    grid-column: 2 / 7;
-    grid-row: 3;
-}
-.promo-sub-h{
-    display: inline;
-    margin-left: 20px;
-}
-.promo-main-text{
-    grid-column: 2 / 7;
-    grid-row: 5;
-}
-.head-main-button{
-    grid-column: 2 / 7;
-    grid-row: 6;
-}
-.girl-block{
-    display: block;
+    margin-top: 48px; }
+  .program-teacher-first, .program-teacher-second {
+    width: 432px;
+    padding: 24px; }
+  .program-teacher-photo {
+    margin-right: 24px; }
+  .program-teacher-second {
     position: absolute;
-     top: -70px;
-    right: 10px;
-    overflow: hidden;  
-}
-.promo-gitl{
-    z-index: 1;
-    width: 431px;
-    background: url(../img/Ellipse.png) 20px 285px no-repeat;
-}
+    left: 552px;
+    top: 0; }
+  .program-teacher-first {
+    margin-left: 85px; }
+  .program-content {
+    grid-column: 2;
+    margin-top: 64px; }
+  .program-content-block {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: flex; }
+  .program-content-number {
+    float: right;
+    justify-self: center;
+    margin-left: 24px; }
+  .program-bottom-h {
+    margin-top: 48px; }
+
+.add-info {
+  display: grid;
+  grid-template-columns: 6.25% repeat(12, 1fr) 6.25%;
+  padding-top: 160px;
+  padding-bottom: 160px; }
+  .add-info-section {
+    padding: 48px;
+    box-sizing: border-box;
+    width: 32%;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+  .add-info-big-dark-text {
+    margin-top: 16px;
+    margin-bottom: 8px; }
+  .add-info--blocks {
+    grid-column: 2/14;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px; }
+  .add-info-main-h {
+    grid-column: 2/14;
+    text-align: center; }
+
+/*# sourceMappingURL=common.css.map */
