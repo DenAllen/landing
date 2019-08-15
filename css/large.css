@@ -208,9 +208,114 @@
     grid-column: 2/14;
     display: flex;
     justify-content: space-between;
-    margin-top: 48px; }
+    margin-top: 48px;
+    margin-bottom: 160px; }
   .add-info-main-h {
     grid-column: 2/14;
     text-align: center; }
+  .add-info-bonus {
+    height: 360px;
+    grid-column: 2/14;
+    margin-top: 48px;
+    background-size: 100%;
+    padding: 32px; }
+
+.main-info {
+  display: grid;
+  grid-template-columns: 96px repeat(12, 1fr) 96px;
+  padding-top: 160px;
+  padding-bottom: 160px; }
+  .main-info-main-h {
+    grid-column: 2/14; }
+  .main-info-block {
+    grid-column: 3/13;
+    height: 448px;
+    width: 772px;
+    margin: 48px auto 0; }
+  .main-info-description {
+    height: 100%;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 20px repeat(2, 1fr) 20px;
+    grid-column-gap: 32px;
+    grid-template-rows: 50px repeat(4, 1fr) 50px;
+    grid-row-gap: 32px; }
+  .main-info-count {
+    grid-column: 2/4;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+  .main-info-length {
+    grid-column: 2/3;
+    grid-row: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+  .main-info-start {
+    grid-column: 3/4;
+    grid-row: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+  .main-info-dates {
+    grid-column: 2/4;
+    grid-row: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+  .main-info-place {
+    grid-column: 2/4;
+    grid-row: 5;
+    display: flex;
+    align-items: center; }
+  .main-info-form {
+    height: 100%;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 20px repeat(2, 1fr) 20px;
+    grid-column-gap: 32px;
+    grid-template-rows: 50px repeat(5, 1fr) 50px;
+    grid-row-gap: 25px; }
+    .main-info-form-small-dark {
+      grid-column: 2/4;
+      grid-row: 2; }
+  .main-info-name {
+    grid-column: 2/4;
+    grid-row: 3; }
+  .main-info-email {
+    grid-column: 2/4;
+    grid-row: 4; }
+  .main-info-phone {
+    grid-column: 2/4;
+    grid-row: 5; }
+  .main-info-button {
+    grid-column: 2/4;
+    grid-row: 6; }
+  .main-info-add-text {
+    grid-column: 4/12;
+    text-align: center;
+    margin: 24px 30px 0; }
+  .main-info-questions {
+    margin-top: 160px;
+    grid-column: 5/11; }
+
+.footer {
+  height: 180px;
+  grid-template-columns: 96px repeat(12, 1fr) 96px; }
+  .footer-top, .footer-bottom {
+    grid-column: 2/14;
+    justify-content: space-between;
+    align-items: center; }
+  .footer-light-ul, .footer-dark-ul {
+    justify-content: space-between; }
+  .footer-contacts {
+    width: 55%; }
+  .footer-social {
+    width: 15%; }
+  .footer-copy {
+    width: 37%; }
+  .footer-doc {
+    width: 44%; }
 
 /*# sourceMappingURL=large.css.map */

@@ -21,7 +21,7 @@
 .promo
   text-align: center
   width: 100%
-  background: url(../img/Ellipse-pink.png) top left no-repeat,linear-gradient(243.81deg, #301F68 0%, #561862 100%)
+  background: url(../img/Ellipse-pink.png) top left no-repeat,linear-gradient(243.81deg, #301F68 0%, #561862 400%)
   background-size: 50%
 
 
@@ -185,7 +185,6 @@
   font-size: 1.8em
   line-height: 133%
   color: #170F39
-
 .wrapper
   overflow: hidden
 .program
@@ -193,6 +192,7 @@
   padding-bottom: 128px
   display: grid
   grid-template-columns: 5% 1fr 5%
+  background: url("../img/Ellipse-pink.svg") no-repeat -19% -29%, url("../img/Ellipse.svg") no-repeat 100% 126%
   &-main-h
     text-align: center
     grid-column: 1/4
@@ -266,6 +266,131 @@
     flex-direction: column
     align-items: center
     margin-top: 48px
+    margin-bottom: 128px
   &-main-h
     grid-column: 2/14
     text-align: center
+  &-bonus
+    height: 360px
+    grid-column: 2/14
+    margin-top: 32px
+    background-size: 215%
+    padding: 24px
+
+.main-info
+  display: grid
+  grid-template-columns: 5% repeat(12, 1fr) 5%
+  padding-top: 128px
+  padding-bottom: 128px
+  &-main-h
+    grid-column: 2/14
+  &-block
+    grid-column: 2/14
+    width: 100%
+    height: 748px
+    margin: 48px auto 0
+    display: flex
+    flex-direction: column
+  &-description
+    height: 50%
+    width: 100%
+    display: grid
+    grid-template-columns: 16px repeat(2, 1fr) 16px
+    grid-column-gap: 16px
+    grid-template-rows: 0 repeat(6, 1fr) 0
+    grid-row-gap: 28px
+  &-count
+    grid-column: 2/4
+    grid-row: 2
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+  &-length
+    grid-column: 2/4
+    grid-row: 3
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+  &-start
+    grid-column: 2/4
+    grid-row: 4
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+  &-dates
+    grid-column: 2/4
+    grid-row: 5
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+  &-place
+    grid-column: 2/4
+    grid-row: 6
+    display: flex
+    align-items: center
+  &-form
+    height: 50%
+    width: 100%
+    display: grid
+    grid-template-columns: 32px repeat(2, 1fr) 32px
+    grid-template-rows: 0 repeat(5, 1fr) 0
+    grid-row-gap: 25px
+    &-small-dark
+      grid-column: 2/4
+      grid-row: 2
+  &-name
+    grid-column: 2/4
+    grid-row: 3
+  &-email
+    grid-column: 2/4
+    grid-row: 4
+  &-phone
+    grid-column: 2/4
+    grid-row: 5
+  &-button
+    grid-column: 2/4
+    grid-row: 6
+  &-add-text
+    grid-column: 2/14
+    text-align: center
+    margin-top: 24px
+  &-questions
+    margin-top: 128px
+    grid-column: 2/14
+
+.footer
+  grid-template-columns: 5% repeat(12, 1fr) 5%
+  padding-top: 48px
+  padding-bottom: 24px
+  &-top, &-bottom
+    grid-column: 2/14
+    align-items: center
+    flex-wrap: wrap
+    justify-content: space-around
+  &-bottom
+    padding-top: 24px
+    flex-direction: column
+  &-light-ul, &-dark-ul
+    justify-content: space-around
+    flex-wrap: wrap
+  &-dark-ul
+    flex-direction: column
+    align-items: center
+  &-contacts
+    width: 100%
+  &-social
+    width: 55%
+    margin: 28px auto
+  &-copy
+    order: 1
+  &-doc
+    width: 100%
+  &-small-last
+    order: 5
+  &-dark-li
+    margin-bottom: 24px
+
+.br
+  order: 1
+  width: 100%
+  height: 24px

@@ -7,6 +7,7 @@ body
   margin: 0
   padding: 0
   text-decoration: none
+  list-style: none
 
 /*navig*/
 .navigation
@@ -161,9 +162,8 @@ body
 
 .fa-angle-right-bkack
   position: absolute
-  right: 0
+  right: 5px
   top: 30px
-
 .education
   background: #F8F8F8
 .large-dark-text
@@ -210,3 +210,115 @@ body
     width: 64px
     height: 64px
     box-sizing: border-box
+  &-bonus
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.24) 0%, rgba(0, 0, 0, 0.72) 100%), url("../img/material.jpg") center center no-repeat
+    border-radius: 8px
+    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.12)
+    display: flex
+    justify-content: space-between
+    flex-direction: column
+  &-small-main-h
+    font-style: normal
+    font-weight: bold
+    font-size: 1.8em
+    line-height: 133%
+    color: #FFFFFF
+.big-text
+  font-size: 2.7em
+  line-height: 100%
+.colored-sub-h
+  font-style: normal
+  font-weight: 300
+  line-height: 100%
+  color: #57D6E1
+.main-info
+  background-color: #F8F8F8
+  &-block
+    border-radius: 2px
+    display: flex
+    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.12)
+  &-description
+    background-color: #342061
+  &-main-text
+    font-style: normal
+    font-weight: normal
+    font-size: 0.9em
+    line-height: 123%
+    color: #CBC9D2
+    &-dark
+      font-weight: 500
+      color: #9E9BAC
+  &-sub-h
+    font-style: normal
+    font-weight: normal
+    font-size: 1em
+    line-height: 165%
+    color: #FFFFFF
+  &-name, &-email, &-phone
+    background: none
+    border: none
+    border-bottom: #CCCCCC 1px solid
+    color: #CCCCCC
+  &-name:focus, &-email:focus, &-phone:focus
+    outline: none
+  &-name::placeholder, &-email::placeholder, &-phone::placeholder
+    font-style: normal
+    font-weight: normal
+    font-size: 1em
+    line-height: 109%
+    color: #CCCCCC
+  &-button
+    background: #57D6E1
+    border-radius: 4px
+    border: none
+    font-style: normal
+    font-weight: 500
+    font-size: 1em
+    line-height: 160%
+    display: flex
+    align-items: center
+    justify-content: center
+    text-align: center
+    color: #FFFFFF
+  &-button:hover
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .5)
+  &-form
+    &-small-dark
+      grid-column: 2/4
+      grid-row: 2
+      font-style: normal
+      font-weight: bold
+      font-size: 1.5em
+      line-height: 133%
+      text-align: center
+      color: #000000
+  &-text-description:hover
+    background-color: #F3F3F3
+
+.footer
+  background-color: #0A061A
+  display: grid
+  &-top
+    border-bottom: 1px solid #312E3F
+    display: flex
+  &-light-ul,&-dark-ul
+    display: flex
+  &-bottom
+    display: flex
+  &-light-a
+    font-style: normal
+    font-weight: normal
+    font-size: 0.9em
+    line-height: 123%
+    color: #FFFFFF
+  &-dark-li, &-dark-a
+    color: #6C6A76
+    font-style: normal
+    font-weight: normal
+    font-size: 0.9em
+    line-height: 123%
+    list-style: none
+  &-light-a:hover
+    color: #6C6A76
+  &-dark-a:hover
+    color: #FFFFFF
